@@ -1,0 +1,25 @@
+{
+  "name": "blockchaininfo-unofficial",
+  "version": "1.0.0",
+  "description": "a wrapper around blockchaininfo's api. Conforms to a standard derived from bitcoind and common-blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewmalta13/blockchaininfo-unofficial"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "author": "Andrew Malta <andrew.malta@yale.edu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewmalta13/blockchaininfo-unofficial/issues"
+  },
+  "homepage": "https://github.com/andrewmalta13/blockchaininfo-unofficial",
+  "dependencies": {
+    "request": "^2.58.0"
+  }
+}
