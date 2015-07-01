@@ -26,8 +26,6 @@ you may specify the options you wish to make a call like so:
 blockchaininfo.Addresses.Unspents(["address 1", "address 2", ...], callback);
 ```
 
-alternatively you can check out the comments above each function in lib if you wish to understand what each function expects and returns.
-
 ## Maintainers
 * Andrew Malta: andrew.malta@yale.edu
 * Howard Wu: howardwu@berkeley.edu

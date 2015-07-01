@@ -1,9 +1,9 @@
-var commonBlockchainTests = require('abstract-common-blockchain/mainnet/tests');
+var commonBlockchainTests = require('abstract-common-blockchain/tests/mainnet');
 
 var test = require('tape');
-var ChainAPI = require('../');
+var blockChainInfoAPI = require('../');
 
-var commonBlockchain = ChainAPI();
+var commonBlockchain = blockChainInfoAPI();
 
 var common = {
   setup: function(t, cb) {
