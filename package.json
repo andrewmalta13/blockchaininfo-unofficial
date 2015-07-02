@@ -1,6 +1,6 @@
 {
   "name": "blockchaininfo-unofficial",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a wrapper around blockchaininfo's api. Conforms to a standard derived from bitcoind and common-blockchain",
   "main": "index.js",
   "scripts": {

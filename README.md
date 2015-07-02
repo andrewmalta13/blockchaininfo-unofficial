@@ -17,13 +17,13 @@ Standard convention is described fully in the types.json file in the link above.
 
 simply require the npm module at the top of the file
 ```javascript
-var blockchaininfo = require('blockchaininfo-unofficial')();
+var blockchaininfoClient = require('blockchaininfo-unofficial')();
 ```
 you may specify the options you wish to make a call like so:
 
 ```javascript
 //example call
-blockchaininfo.Addresses.Unspents(["address 1", "address 2", ...], callback);
+blockchaininfoClient.Addresses.Unspents(["address 1", "address 2", ...], callback);
 ```
 
 ## Maintainers
