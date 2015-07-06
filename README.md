@@ -5,9 +5,12 @@
 you can install the npm module <a href="https://www.npmjs.com/package/blockchaininfo-unofficial">here</a>
 
 ```
-npm install chain-unofficial
+npm install blockchaininfo-unofficial
 ```
 <a href="https://github.com/blockai/abstract-common-blockchain">See abstract-common-blockchain for API</a>
+
+## Blockchain's Abstract Common Blockchain Coverage 
+  <a href="http://abstract-common-blockchain.herokuapp.com"> Use this link to see what Blockchain.info supports </a>
 
 ## Convention
 
@@ -27,6 +30,7 @@ blockchaininfoClient.Addresses.Unspents(["address 1", "address 2", ...], callbac
 ```
 
 ## Maintainers
+please email us with any and all issues/requests.
 * Andrew Malta: andrew.malta@yale.edu
 * Howard Wu: howardwu@berkeley.edu
 
