@@ -1,7 +1,10 @@
 function BlockChainInfo(opts) {
   if (!(this instanceof BlockChainInfo)) return new BlockChainInfo(opts);
 
-  //leave opts for possible integration of api key, but nothing in it for now.
+  if(!opts || !opts.api_code){
+    console.log("no api code specified, you may request one here: https://blockchain.info/api/api_create_code");
+    opts = {api_code: ""};
+  }
 
   return {
     Addresses: require('./lib/addresses.js')(opts),
